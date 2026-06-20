@@ -1,7 +1,6 @@
 # Olist E-Commerce Analysis (2016–2018)
 
-**Tools:** Google BigQuery · SQL · Power BI   
-**Dataset:** [Olist Brazilian E-Commerce — Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)  
+**Tools:** Google BigQuery · SQL · Power BI     
 **Live Dashboard:** [View on Power BI](https://app.powerbi.com/view?r=eyJrIjoiNTY4ZjhmMDEtOTJjNy00YTFjLTk0ODItMTJmNmM3ZTNiOTQ2IiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9)
 
 ---
