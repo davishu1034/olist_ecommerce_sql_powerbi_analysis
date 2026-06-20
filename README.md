@@ -34,6 +34,12 @@
 
 <img width="1314" height="737" alt="dashboard_screenshot" src="https://github.com/user-attachments/assets/5eb9cb8d-cf1d-4f53-8862-c7910c0b551a" />
 
+---
+
+## Report
+A professionally formatted PDF business intelligence report is available:  
+[Download PDF Report](olist_bi_report.pdf)
+
 
 ---
 
