@@ -57,13 +57,7 @@ Answered four core business questions:
 - **Late delivery count** — 6,534 orders delivered after estimated date
 - **6-month repeat purchase rate** — LAG() window function to identify returning customers
 
-### 3. Customer Lifetime Value (`sql/customer_lifetime_value.sql`)
-Segmented all customers into HIGH / MID / LOW CLV tiers using:
-- Weighted composite score: 60% total spend + 40% order frequency
-- NTILE(3) window function for tier assignment
-- Enables targeted retention and upsell strategies
-
-### 4. Seller Quality Ranking (in `sql/business_questions.sql`)
+### 3. Seller Quality Ranking (in `sql/business_questions.sql`)
 - Filtered to sellers with 50+ delivered orders
 - Deduplicated reviews via CTE (some orders had multiple review entries)
 - Ranked by avg review score to surface reliable marketplace partners
@@ -71,7 +65,7 @@ Segmented all customers into HIGH / MID / LOW CLV tiers using:
 ---
 
 ## SQL Techniques Used
-- Window functions: `NTILE()`, `LAG()`, `AVG() OVER`
+- Window functions: `LAG()`, `AVG() OVER`
 - CTEs (Common Table Expressions) for multi-step logic
 - `TIMESTAMP_DIFF` for time-based calculations
 - Multi-table JOINs (orders + customers + geo_location + products + payments)
